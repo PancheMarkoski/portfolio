@@ -11,10 +11,11 @@ const MyProjectContainer = styled.div`
     height: 95vh;
     padding-top: 4rem;
     clip-path: polygon(0 20%, 100% 0, 100% 80%, 0% 100%);
-    background-image: linear-gradient(to right bottom, rgba(171, 184, 186, 0.8), rgba(51, 55, 56, 0.8)), url(${ProjectImg});
+    //background-image: linear-gradient(to right bottom, rgba(171, 184, 186, 0.8), rgba(51, 55, 56, 0.8)), url(${ProjectImg});
     background-size: cover;
     background-position: top;
     margin-top: 3rem;
+    background-color: rgb(80, 80, 90);
 `;
 
 const myProjectSection = () => {

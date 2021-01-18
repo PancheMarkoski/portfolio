@@ -7,7 +7,7 @@ const FadeIn = keyframes`
 `;
 
 const Title = styled.h2`
-    color: #ffffff;
+    color: #ffff9c;
     animation: ${FadeIn} ease 1s;
     padding-top: 12rem;
     padding-bottom: 4rem;
