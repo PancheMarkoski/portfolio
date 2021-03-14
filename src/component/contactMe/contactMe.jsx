@@ -116,7 +116,7 @@ function contactMe() {
             <Btn type='submit'>Send Message</Btn>
             <FooterContactForm>
                 <Phone><IoPhonePortraitOutline /></Phone>
-                070208545   
+                070208201   
                 <Envelope><FaRegEnvelope /></Envelope>
                 panchemarkoski@gmail.com
             </FooterContactForm>
