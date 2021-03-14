@@ -2,8 +2,8 @@ import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Navigation, A11y } from 'swiper';
 
-import img2 from '../../assets/images/png-transparent-web-development-web-design-web-banner-web-application-web-design-search-engine-optimization-web-design-mobile-app-development.png'
-import ProjectImg from '../../assets/images/projecImg.jpg'
+import RecipeAppImg from '../.././assets/images/RecipeApp.png'
+import GimexWebSite from '../../assets/images/GimexWebSite.png'
 import { FaReact, FaWordpress } from 'react-icons/fa'
 import Card from '../../component/card/card'
 import 'swiper/swiper.scss';
@@ -24,9 +24,9 @@ const swiper = () => {
         onSwiper={(swiper) => console.log(swiper)}
       >
         <SwiperSlide>
-          <Card title="title" icon={FaReact} btn="btnnn" projectImg={ProjectImg}/>
+          <Card url='https://eager-goldberg-8e665c.netlify.app/' title="Recipe App" icon={FaReact} btn="View" projectImg={RecipeAppImg}/>
         </SwiperSlide>
-        <SwiperSlide><Card title="title" icon={FaWordpress} btn="btnnn" projectImg={img2} /></SwiperSlide>
+        <SwiperSlide><Card url="https://gimex.mk/" title="Gimex" icon={FaWordpress} btn="View" projectImg={GimexWebSite} /></SwiperSlide>
         <SwiperSlide><Card title="title" icon={FaReact} btn="btnnn"/></SwiperSlide>
         <SwiperSlide><Card title="title" icon={FaWordpress} btn="btnnn"/></SwiperSlide>
       </Swiper>

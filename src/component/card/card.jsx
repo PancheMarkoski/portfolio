@@ -64,7 +64,7 @@ const card = (props) => {
           <CardSecondDiv>
             <Title>{props.title}</Title>
             <Icon><props.icon size = '6rem'/></Icon>
-            <Btn>{props.btn}</Btn>
+            <Btn href={props.url}>{props.btn}</Btn>
             </CardSecondDiv>
         </Card> 
     )

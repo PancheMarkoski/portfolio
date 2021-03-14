@@ -28,8 +28,7 @@ const ImgContainerRight = styled.div`
 const aboutMe = () => {
     return (
         <PrimaryContainer>
-            <TextContainerLeft>"I'm a Front-End Developer for ChowNow in Los Angeles, CA.
-I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.
+            <TextContainerLeft>"I'm a Front-End Developer who have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.
 Let's make something special."</TextContainerLeft>
             <ImgContainerRight src={ImgUrl} />
         </PrimaryContainer>
