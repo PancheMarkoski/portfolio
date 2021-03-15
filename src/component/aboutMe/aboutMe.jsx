@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import ImgUrl from '../../assets/images/IMG_202.png'
+import ImgUrl from '../../assets/images/IMG_201.jpg'
 
 const PrimaryContainer = styled.div`
     width: 100%;
